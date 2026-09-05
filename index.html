@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capa Capa AyA — Impresión 3D Educativa Personalizada</title>
+    <meta name="description" content="Impresión 3D personalizada para profesores de infantil y creativos. Letras, números, figuras educativas y decoración. Diseño a medida capa a capa.">
+    <meta name="keywords" content="impresión 3D, material educativo, profesores infantil, letras 3D, números 3D, figuras personalizadas, decoración 3D">
+    <meta name="author" content="Capa Capa AyA">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://capacapaaya.com/">
+    <meta property="og:title" content="Capa Capa AyA — Impresión 3D Educativa">
+    <meta property="og:description" content="Piezas 3D personalizadas para educación infantil. Material manipulativo, decoración y diseños a medida.">
+    <meta property="og:image" content="https://capacapaaya.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://capacapaaya.com/">
+    <meta property="twitter:title" content="Capa Capa AyA — Impresión 3D Educativa">
+    <meta property="twitter:description" content="Piezas 3D personalizadas para educación infantil. Material manipulativo, decoración y diseños a medida.">
+    <meta property="twitter:image" content="https://capacapaaya.com/og-image.jpg">
+
+    <link rel="icon" type="image/png" href="logo fondo transparente.png">
+    <link rel="apple-touch-icon" href="logo fondo transparente.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#hero" class="nav-logo">
+            <img src="logo fondo transparente.png" alt="Capa Capa AyA" class="logo-img">
+            <span class="logo-text">Capa Capa <span class="logo-accent">AyA</span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#catalogo" data-i18n="nav.catalog">Catálogo</a></li>
+            <li><a href="#profesores" data-i18n="nav.teachers">Profesores</a></li>
+            <li><a href="#nosotros" data-i18n="nav.about">Nosotros</a></li>
+            <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+            <li><a href="#opiniones" data-i18n="nav.reviews">Opiniones</a></li>
+            <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" title="Cambiar tema" aria-label="Cambiar tema">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <button class="lang-toggle" id="langToggle" title="Switch language">
+                <span class="lang-flag" id="langFlag">🇬🇧</span>
+                <span class="lang-label" id="langLabel">EN</span>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-content">
+        <div class="hero-text">
+            <span class="hero-badge" data-i18n="hero.badge">🖨️ Impresión 3D personalizada</span>
+            <h1>
+                <span data-i18n="hero.title1">Creamos tus ideas</span><br>
+                <span class="hero-highlight" data-i18n="hero.title2">capa a capa</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Piezas educativas, figuras, prototipos y mucho más. Diseño personalizado para profesores, creativos y particulares.</p>
+            <div class="hero-cta">
+                <a href="#catalogo" class="btn btn-primary" data-i18n="hero.cta1">Ver catálogo</a>
+                <a href="#contacto" class="btn btn-outline" data-i18n="hero.cta2">Pide presupuesto</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label" data-i18n="hero.stat1">Piezas impresas</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label" data-i18n="hero.stat2">Clientes felices</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label" data-i18n="hero.stat3">Personalizable</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-3d-card">
+                <div class="card-glow"></div>
+                <div class="printer-3d">
+                    <div class="printer-frame">
+                        <div class="printer-top-bar"></div>
+                        <div class="printer-vertical-bar left"></div>
+                        <div class="printer-vertical-bar right"></div>
+                    </div>
+                    <div class="printer-extruder">
+                        <div class="nozzle">
+                            <div class="nozzle-glow"></div>
+                        </div>
+                    </div>
+                    <div class="printer-bed">
+                        <div class="bed-glow"></div>
+                        <div class="printing-object">
+                            <div class="print-layer layer-1"></div>
+                            <div class="print-layer layer-2"></div>
+                            <div class="print-layer layer-3"></div>
+                            <div class="print-layer layer-4"></div>
+                            <div class="print-layer layer-5"></div>
+                            <div class="print-layer layer-6"></div>
+                            <div class="print-layer layer-7"></div>
+                            <div class="print-layer layer-8"></div>
+                        </div>
+                        <div class="removal-hand">👋</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span data-i18n="hero.scroll">Descubre más</span>
+        <div class="scroll-arrow">↓</div>
+    </div>
+</section>
+
+<!-- CATÁLOGO -->
+<section class="section catalog" id="catalogo">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-i18n="catalog.tag">Nuestro trabajo</span>
+            <h2 data-i18n="catalog.title">Catálogo de piezas</h2>
+            <p data-i18n="catalog.subtitle">Cada pieza es impresa con cuidado y atención al detalle. ¿No encuentras lo que buscas? ¡Te lo diseñamos!</p>
+        </div>
+
+        <div class="catalog-filters">
+            <button class="filter-btn active" data-filter="all" data-i18n="catalog.all">Todos</button>
+            <button class="filter-btn" data-filter="educativo" data-i18n="catalog.educational">Educativo</button>
+            <button class="filter-btn" data-filter="decoracion" data-i18n="catalog.decoration">Decoración</button>
+            <button class="filter-btn" data-filter="funcional" data-i18n="catalog.functional">Funcional</button>
+            <button class="filter-btn" data-filter="personalizado" data-i18n="catalog.custom">Personalizado</button>
+        </div>
+
+        <div class="catalog-grid">
+            <div class="product-card" data-category="educativo">
+                <div class="product-image">
+                    <div class="placeholder-img" style="--hue: 210">
+                        <span class="placeholder-icon">🔤</span>
+                        <span class="placeholder-text" data-i18n="catalog.placeholder">Foto del producto</span>
+                    </div>
+                    <span class="product-badge" data-i18n="catalog.popular">Popular</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category" data-i18n="catalog.educational">Educativo</span>
+                    <h3 data-i18n="catalog.p1.name">Letras del abecedario 3D</h3>
+                    <p data-i18n="catalog.p1.desc">Set completo de letras táctiles para aprendizaje en infantil. Varios colores disponibles.</p>
+                    <a href="#contacto" class="btn btn-small" data-i18n="catalog.ask">Consultar</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="educativo">
+                <div class="product-image">
+                    <div class="placeholder-img" style="--hue: 150">
+                        <span class="placeholder-icon">🔢</span>
+                        <span class="placeholder-text" data-i18n="catalog.placeholder">Foto del producto</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category" data-i18n="catalog.educational">Educativo</span>
+                    <h3 data-i18n="catalog.p2.name">Números y formas geométricas</h3>
+                    <p data-i18n="catalog.p2.desc">Piezas encajables para aprender números y formas básicas. Ideal para actividades manipulativas.</p>
+                    <a href="#contacto" class="btn btn-small" data-i18n="catalog.ask">Consultar</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="educativo">
+                <div class="product-image">
+                    <div class="placeholder-img" style="--hue: 40">
+                        <span class="placeholder-icon">🦕</span>
+                        <span class="placeholder-text" data-i18n="catalog.placeholder">Foto del producto</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category" data-i18n="catalog.educational">Educativo</span>
+                    <h3 data-i18n="catalog.p3.name">Animales del mundo</h3>
+                    <p data-i18n="catalog.p3.desc">Colección de animales para enseñar fauna y ecosistemas. Cada pieza con base y nombre.</p>
+                    <a href="#contacto" class="btn btn-small" data-i18n="catalog.ask">Consultar</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="decoracion">
+                <div class="product-image">
+                    <div class="placeholder-img" style="--hue: 300">
+                        <span class="placeholder-icon">🏠</span>
+                        <span class="placeholder-text" data-i18n="catalog.placeholder">Foto del producto</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category" data-i18n="catalog.decoration">Decoración</span>
+                    <h3 data-i18n="catalog.p4.name">Macetero geométrico</h3>
+                    <p data-i18n="catalog.p4.desc">Macetero con diseño poligonal moderno. Disponible en varios tamaños y colores.</p>
+                    <a href="#contacto" class="btn btn-small" data-i18n="catalog.ask">Consultar</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="funcional">
+                <div class="product-image">
+                    <div class="placeholder-img" style="--hue: 180">
+                        <span class="placeholder-icon">🔧</span>
+                        <span class="placeholder-text" data-i18n="catalog.placeholder">Foto del producto</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category" data-i18n="catalog.functional">Funcional</span>
+                    <h3 data-i18n="catalog.p5.name">Organizador de escritorio</h3>
+                    <p data-i18n="catalog.p5.desc">Organizador modular personalizable con compartimentos para bolígrafos, clips y más.</p>
+                    <a href="#contacto" class="btn btn-small" data-i18n="catalog.ask">Consultar</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="personalizado">
+                <div class="product-image">
+                    <div class="placeholder-img" style="--hue: 350">
+                        <span class="placeholder-icon">✨</span>
+                        <span class="placeholder-text" data-i18n="catalog.placeholder">Foto del producto</span>
+                    </div>
+                    <span class="product-badge badge-new" data-i18n="catalog.customBadge">A medida</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category" data-i18n="catalog.custom">Personalizado</span>
+                    <h3 data-i18n="catalog.p6.name">Tu idea hecha realidad</h3>
+                    <p data-i18n="catalog.p6.desc">¿Tienes una idea en mente? Cuéntanos y la diseñamos e imprimimos para ti.</p>
+                    <a href="#contacto" class="btn btn-small btn-accent" data-i18n="catalog.tellUs">¡Cuéntanos!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROFESORES -->
+<section class="section teachers" id="profesores">
+    <div class="container">
+        <div class="teachers-layout">
+            <div class="teachers-info">
+                <span class="section-tag" data-i18n="teachers.tag">Para educación</span>
+                <h2 data-i18n="teachers.title">Material 3D para tu aula</h2>
+                <p class="teachers-description" data-i18n="teachers.desc">Creamos materiales didácticos en 3D pensados para profesores de educación infantil y primaria. Piezas táctiles, resistentes y coloridas que hacen el aprendizaje más divertido.</p>
+
+                <div class="teachers-features">
+                    <div class="feature">
+                        <span class="feature-icon">🎨</span>
+                        <div>
+                            <h4 data-i18n="teachers.f1.title">Colores seguros</h4>
+                            <p data-i18n="teachers.f1.desc">Filamentos no tóxicos y colores vibrantes aptos para niños.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🧩</span>
+                        <div>
+                            <h4 data-i18n="teachers.f2.title">Diseño pedagógico</h4>
+                            <p data-i18n="teachers.f2.desc">Piezas diseñadas para objetivos educativos concretos.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">💪</span>
+                        <div>
+                            <h4 data-i18n="teachers.f3.title">Resistentes</h4>
+                            <p data-i18n="teachers.f3.desc">Impresas para aguantar el uso diario en el aula.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">📐</span>
+                        <div>
+                            <h4 data-i18n="teachers.f4.title">A tu medida</h4>
+                            <p data-i18n="teachers.f4.desc">Nos cuentas qué necesitas y lo adaptamos a tu programación.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#contacto" class="btn btn-primary" data-i18n="teachers.cta">Solicita material para tu aula</a>
+            </div>
+            <div class="teachers-visual">
+                <div class="teachers-card card-1">
+                    <span class="card-emoji">🔤</span>
+                    <span data-i18n="teachers.card1">Letras táctiles</span>
+                </div>
+                <div class="teachers-card card-2">
+                    <span class="card-emoji">🔢</span>
+                    <span data-i18n="teachers.card2">Números</span>
+                </div>
+                <div class="teachers-card card-3">
+                    <span class="card-emoji">🌍</span>
+                    <span data-i18n="teachers.card3">Mapas</span>
+                </div>
+                <div class="teachers-card card-4">
+                    <span class="card-emoji">🧬</span>
+                    <span data-i18n="teachers.card4">Ciencia</span>
+                </div>
+                <div class="teachers-card card-5">
+                    <span class="card-emoji">🎵</span>
+                    <span data-i18n="teachers.card5">Música</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Elementos flotantes decorativos -->
+    <div class="floating-elements">
+        <div class="float-item" data-speed="0.3">🔤</div>
+        <div class="float-item" data-speed="0.5">🔢</div>
+        <div class="float-item" data-speed="0.2">⭐</div>
+        <div class="float-item" data-speed="0.4">🎨</div>
+        <div class="float-item" data-speed="0.6">🧩</div>
+        <div class="float-item" data-speed="0.35">🌈</div>
+        <div class="float-item" data-speed="0.45">📚</div>
+        <div class="float-item" data-speed="0.25">✏️</div>
+        <div class="float-item" data-speed="0.55">🎯</div>
+        <div class="float-item" data-speed="0.3">🧮</div>
+        <div class="float-item" data-speed="0.5">🎪</div>
+        <div class="float-item" data-speed="0.4">🎭</div>
+    </div>
+</section>
+
+<!-- SOBRE NOSOTROS -->
+<section class="section about" id="nosotros">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-i18n="about.tag">Quiénes somos</span>
+            <h2 data-i18n="about.title">Sobre Capa Capa AyA</h2>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-story">
+                <p data-i18n="about.story1">Somos un pequeño taller de impresión 3D con una gran pasión: transformar ideas en objetos reales, capa a capa.</p>
+                <p data-i18n="about.story2">Nuestro foco principal está en crear material didáctico para profesores de educación infantil, pero nos encanta cualquier reto creativo que nos propongas.</p>
+                <p data-i18n="about.story3">Cada pieza que sale de nuestras impresoras está hecha con mimo, pensada para durar y diseñada para cumplir una función.</p>
+            </div>
+
+            <div class="about-process">
+                <h3 data-i18n="about.processTitle">Cómo trabajamos</h3>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4 data-i18n="about.s1.title">Cuéntanos tu idea</h4>
+                            <p data-i18n="about.s1.desc">Escríbenos por WhatsApp o rellena el formulario con lo que necesitas.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4 data-i18n="about.s2.title">Diseñamos o adaptamos</h4>
+                            <p data-i18n="about.s2.desc">Creamos el diseño 3D o adaptamos uno existente a tus necesidades.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4 data-i18n="about.s3.title">Imprimimos con cuidado</h4>
+                            <p data-i18n="about.s3.desc">Elegimos el material y color adecuados e imprimimos tu pieza.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4 data-i18n="about.s4.title">Te la enviamos</h4>
+                            <p data-i18n="about.s4.desc">Revisamos la calidad y te la hacemos llegar rápidamente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq" id="faq">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-i18n="faq.tag">Dudas frecuentes</span>
+            <h2 data-i18n="faq.title">Preguntas frecuentes</h2>
+        </div>
+
+        <div class="faq-list">
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq.q1">¿Qué materiales utilizáis?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq.a1">Trabajamos principalmente con PLA, un plástico biodegradable y seguro. También disponemos de PETG para piezas que necesiten más resistencia, y TPU para piezas flexibles. Todos nuestros materiales son aptos para uso infantil.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq.q2">¿Cuánto tarda un pedido?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq.a2">Depende de la complejidad y cantidad. Piezas sencillas pueden estar listas en 2-3 días. Proyectos más complejos o con diseño personalizado pueden tardar entre 1 y 2 semanas. Siempre te daremos un plazo estimado antes de empezar.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq.q3">¿Hacéis envíos?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq.a3">Sí, hacemos envíos a toda España. Los costes de envío dependen del peso y tamaño del pedido. También ofrecemos recogida en mano si estás cerca.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq.q4">¿Puedo enviar mi propio diseño?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq.a4">¡Por supuesto! Aceptamos archivos STL, OBJ y 3MF. Si tienes un boceto o una idea sin diseño digital, también podemos modelarlo por ti con un pequeño coste adicional.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq.q5">¿Las piezas son seguras para niños?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq.a5">Sí. Utilizamos PLA, un material biodegradable y no tóxico, y nuestros diseños para educación infantil evitan piezas pequeñas o bordes afilados. Siempre recomendamos supervisión adulta con niños menores de 3 años.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq.q6">¿Cuánto cuesta una impresión?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq.a6">El precio depende del tamaño, material y complejidad de la pieza. Contacta con nosotros con tu idea y te enviamos un presupuesto sin compromiso en menos de 24 horas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OPINIONES -->
+<section class="section reviews" id="opiniones">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-i18n="reviews.tag">Lo que dicen de nosotros</span>
+            <h2 data-i18n="reviews.title">Opiniones de nuestros clientes</h2>
+        </div>
+
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text" data-i18n="reviews.r1.text">"Pedí un set de letras para mi clase de 4 años y llegaron perfectas. Los niños las adoran y el acabado es genial."</p>
+                <div class="review-author">
+                    <div class="review-avatar">👩‍🏫</div>
+                    <div>
+                        <span class="review-name" data-i18n="reviews.r1.name">María G.</span>
+                        <span class="review-role" data-i18n="reviews.r1.role">Profesora de infantil</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text" data-i18n="reviews.r2.text">"Les pedí un soporte personalizado para mi tablet y quedó exacto a lo que necesitaba. Muy buena comunicación."</p>
+                <div class="review-author">
+                    <div class="review-avatar">👨‍💻</div>
+                    <div>
+                        <span class="review-name" data-i18n="reviews.r2.name">Carlos R.</span>
+                        <span class="review-role" data-i18n="reviews.r2.role">Particular</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text" data-i18n="reviews.r3.text">"Encargamos un mapa en relieve para geografía y superó todas las expectativas. Mis alumnos lo usan todos los días."</p>
+                <div class="review-author">
+                    <div class="review-avatar">👨‍🏫</div>
+                    <div>
+                        <span class="review-name" data-i18n="reviews.r3.name">Pablo M.</span>
+                        <span class="review-role" data-i18n="reviews.r3.role">Profesor de primaria</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★☆</div>
+                <p class="review-text" data-i18n="reviews.r4.text">"Muy contenta con el organizador de escritorio. Lo único que tardó un poco más de lo esperado, pero el resultado merece la pena."</p>
+                <div class="review-author">
+                    <div class="review-avatar">👩‍💼</div>
+                    <div>
+                        <span class="review-name" data-i18n="reviews.r4.name">Laura S.</span>
+                        <span class="review-role" data-i18n="reviews.r4.role">Particular</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section contact" id="contacto">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-i18n="contact.tag">Hablemos</span>
+            <h2 data-i18n="contact.title">¿Tienes un proyecto en mente?</h2>
+            <p data-i18n="contact.subtitle">Cuéntanos qué necesitas y te respondemos en menos de 24 horas.</p>
+        </div>
+
+        <div class="contact-layout">
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" data-i18n="contact.name">Nombre *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="contact.email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject" data-i18n="contact.subject">Asunto</label>
+                    <select id="subject" name="subject">
+                        <option value="presupuesto" data-i18n="contact.opt1">Pedir presupuesto</option>
+                        <option value="educativo" data-i18n="contact.opt2">Material educativo</option>
+                        <option value="personalizado" data-i18n="contact.opt3">Diseño personalizado</option>
+                        <option value="otro" data-i18n="contact.opt4">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="contact.message">Mensaje *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full" data-i18n="contact.send">Enviar mensaje</button>
+                <div class="form-success" id="formSuccess">
+                    <span>✅</span>
+                    <p data-i18n="contact.success">¡Mensaje enviado! Te responderemos pronto.</p>
+                </div>
+            </form>
+
+            <div class="contact-alternatives">
+                <div class="contact-card whatsapp-card">
+                    <span class="contact-card-icon">💬</span>
+                    <h3 data-i18n="contact.waTitle">WhatsApp directo</h3>
+                    <p data-i18n="contact.waDesc">¿Prefieres hablarlo directamente? Escríbenos por WhatsApp.</p>
+                    <a href="https://wa.me/34722851252" target="_blank" class="btn btn-whatsapp" data-i18n="contact.waBtn">Abrir WhatsApp</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-card-icon">📱</span>
+                    <h3 data-i18n="contact.socialTitle">Síguenos</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com/capacapa.aya3d" target="_blank" class="social-link instagram" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logo fondo transparente.png" alt="Capa Capa AyA" class="footer-logo">
+                <span class="logo-text">Capa Capa <span class="logo-accent">AyA</span></span>
+                <p data-i18n="footer.tagline">Tus ideas, capa a capa.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#catalogo" data-i18n="nav.catalog">Catálogo</a>
+                <a href="#profesores" data-i18n="nav.teachers">Profesores</a>
+                <a href="#nosotros" data-i18n="nav.about">Nosotros</a>
+                <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Capa Capa AyA. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp floating button -->
+<a href="https://wa.me/34722851252" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- Botón volver arriba -->
+<button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
